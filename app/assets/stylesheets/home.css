@@ -1,63 +1,89 @@
 body {
-	font-size: 15px;
+	font-size: 14px;
 	background-image: url("VAXT-SITE-FOND-08.jpg");
 	background-size: 1440px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	opacity: 0.5;
+
 }
 
 .header {
-	width: 900px;
-	padding: 40px;
+	width: 650px;
+	padding: 180px;
 	margin: 10px auto;
+	align-items: center;
+	text-decoration: none;
 }
 
 .list-inline {
 	list-style: none;
 	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
 .list-inline > li {
 	display: inline-block;
 	padding: 10px;
+}
+
+.btn-green {
+	padding: 5px 5px;
+	color: black;
+	opacity: 0,9;
+	align-items: center;
+
 }
 
 .center {
 	text-align: center;
 }
 
-.btn-white {
-	background-color: blue;
-	border-radius: 3px;
-	padding: 5px 10px;
-}
 .button {
 	display: inline-block;	
 }
 .button > li {
 	display: inline-block;	
 }
-.title {
-	width: 900px;
-	padding: 40px;
-	margin: 10px auto;
-    font-size: 40px;
-    font-family: 'Hanalei Fill', cursive;
-    color: #62FAFB;
-    text-align: center;
-}
 
 p {
-  font-family: arial;
+font-family: 'Crimson Text', serif;
+    width: 350px;
 }
-
-a {
-	text-decoration: none;
-}
-
-
 
 .milieu {
 	width: 900px;
 	padding: 40px;
 	margin: 10px auto;
+	display: flex;
+	align-items: center;
+}
+
+.logo-rs {
+	list-style: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.logo-rs > li {
+	display: inline-block;	
+	margin: 10px;
 }
 
 
@@ -66,17 +92,6 @@ footer {
 	padding: 40px;
 	margin: 10px auto;
 }
-
-
-.img-circle {
-    border-radius: 50%;
-    width: 40px;
-}
-
-
-.footer
-
-
 
 
 
