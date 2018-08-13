@@ -1,13 +1,12 @@
 body {
-	background-color: red;
-	color: #333333;
 	font-size: 15px;
+	background-image: url("VAXT-SITE-FOND-08.jpg");
+	background-size: 1440px;
 }
 
 .header {
 	width: 900px;
 	padding: 40px;
-	background-color: white;
 	margin: 10px auto;
 }
 
@@ -28,13 +27,16 @@ body {
 	background-color: blue;
 	border-radius: 3px;
 	padding: 5px 10px;
-	display: inline-block;
 }
-
+.button {
+	display: inline-block;	
+}
+.button > li {
+	display: inline-block;	
+}
 .title {
 	width: 900px;
 	padding: 40px;
-	background-color: white;
 	margin: 10px auto;
     font-size: 40px;
     font-family: 'Hanalei Fill', cursive;
@@ -55,7 +57,6 @@ a {
 .milieu {
 	width: 900px;
 	padding: 40px;
-	background-color: white;
 	margin: 10px auto;
 }
 
@@ -63,7 +64,6 @@ a {
 footer {
 	width: 900px;
 	padding: 40px;
-	background-color: white;
 	margin: 10px auto;
 }
 
