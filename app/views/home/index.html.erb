@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <title>VAXT | Here you will find print web photography vidéo & art.</title>
     <meta name="description" content="Vaxt is multydisciplinary studio for creative people & entrepreneurs. Let us take care of your image.">
-    <link rel="stylesheets" href="home.css">  
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="home.css">  
   </head>
   <body>
   
 	<header>
 	  <div class="header">
 	    <ul>
-	        <li><%= image_tag("VAXT-LOGO-VERT.png", size: "50x30", alt: "vaxt logo") %></li>
+	        <li><%= image_tag("VAXT-LOGO-VERT.png", size: "50x30", alt: "vaxt logo", id: "logo") %></li>
 	        <div class="button">
 	          <li> <a href="#">button</a></li>
 	          <li> <a href="#">button</a></li>
 	          <li> <a href="#">button</a></li>
 	        </div>
 	        <li><p><strong>Clyde</strong></p></li>
-	        <li><%= image_tag("lale.png", size: "50x30", alt: "photo de profil de clyde", id:"imageronde") %></li>
+	        <li><%= image_tag("lale.png", size: "50x30", alt: "photo de profil de clyde", id: "imageronde") %></li>
 	    </ul>
 	  </div>
 	</header>
@@ -27,6 +29,7 @@
 	<div class="title">
 	  <h1>HELLO.</h1>
 	</div>
+
     <div class="milieu">   
        <%= image_tag("THP WALL 2-58.png", size: "100", alt: "un rond") %>
        <p>
@@ -38,9 +41,12 @@
 <footer>
 	<div class="footer">
       <ul>
-        <li> <a href="#" target="_blank">Facebook</a></li>
-        <li> <a href="#" target="_blank">Youtube</a></li>
-        <li> <a href="#" target="_blank">Instagram</a></li>
+        <li> <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li> <a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li> <a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li> <a href="#" target="_blank"><i class="fas fa-code-branch"></i></a></li>
+
+
       </ul>
     </div>
 </footer>

@@ -1,18 +1,62 @@
+body {
+	background-image: "VAXT-SITE-FOND-08.jpg";
+	background-color: #E1E2E1;
+	color: #333333;
+	font-size: 15px;
+	font-family: courier;
+}
+
 h1 {
-  color: red;
-  font-size: 20px;
-  font-family: 
+  font-size: 25px;
+  font-family: 'Hanalei Fill', cursive;
+  color: #62FAFB;
 }
 
 p {
-	
+  font-family: arial;
 }
 
-.header
-.button
+a {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	opacity: 0,8;
+}
+
+header {
+	width: 900px;
+	padding: 40px;
+	background-color: white;
+	margin: 10px auto;
+}
+.title {
+	width: 900px;
+	padding: 40px;
+	background-color: white;
+	margin: 10px auto;
+}
+.milieu {
+	width: 900px;
+	padding: 40px;
+	background-color: white;
+	margin: 10px auto;
+}
+
+
+footer {
+	width: 900px;
+	padding: 40px;
+	background-color: white;
+	margin: 10px auto;
+}
 
 strong
-#imageronde
-.title
-.milieu
+
+#logo
+#imageronde {
+	border-radius: 50%;
+}
+
 .footer
+
