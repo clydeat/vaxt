@@ -1,15 +1,45 @@
 body {
-	background-image: "VAXT-SITE-FOND-08.jpg";
-	background-color: #E1E2E1;
+	background-color: red;
 	color: #333333;
 	font-size: 15px;
-	font-family: courier;
 }
 
-h1 {
-  font-size: 25px;
-  font-family: 'Hanalei Fill', cursive;
-  color: #62FAFB;
+.header {
+	width: 900px;
+	padding: 40px;
+	background-color: white;
+	margin: 10px auto;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0;
+}
+.list-inline > li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+.btn-white {
+	background-color: blue;
+	border-radius: 3px;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+.title {
+	width: 900px;
+	padding: 40px;
+	background-color: white;
+	margin: 10px auto;
+    font-size: 40px;
+    font-family: 'Hanalei Fill', cursive;
+    color: #62FAFB;
+    text-align: center;
 }
 
 p {
@@ -18,24 +48,10 @@ p {
 
 a {
 	text-decoration: none;
-	color: #333333;
-}
-a:hover {
-	opacity: 0,8;
 }
 
-header {
-	width: 900px;
-	padding: 40px;
-	background-color: white;
-	margin: 10px auto;
-}
-.title {
-	width: 900px;
-	padding: 40px;
-	background-color: white;
-	margin: 10px auto;
-}
+
+
 .milieu {
 	width: 900px;
 	padding: 40px;
@@ -51,12 +67,29 @@ footer {
 	margin: 10px auto;
 }
 
-strong
 
-#logo
-#imageronde {
-	border-radius: 50%;
+.img-circle {
+    border-radius: 50%;
+    width: 40px;
 }
 
+
 .footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
