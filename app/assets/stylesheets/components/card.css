@@ -1,4 +1,13 @@
 .card {
   border: 1px solid black;
   padding: 14px 16px;
+  background-color: white;
+  width: 150px;
+  margin: 20px;
+}
+
+.card-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
