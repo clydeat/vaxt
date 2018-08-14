@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+ .grid-container {
+   display: grid;
+   height: 100%;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   grid-gap: 5px;
+   grid-template-areas: "card card-1 card-2";
+ }
+
+ .card { grid-area: card; }
+
+ .card-1 { grid-area: card-1; }
+
+ .card-2 { grid-area: card-2; }
