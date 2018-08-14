@@ -11,15 +11,30 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     assert_select "div.navbar"
   end
 
-  test "should have a 'navbar-logo' div" do
+  test "'navbar' div should have a 'navbar-logo' div" do
     get home_index_url
-    assert_select "div.navbar", "div.navbar-logo"
+    assert_select "div.navbar" do
+      assert_select "div.navbar-logo"
+    end
   end
 
-  test "should have a 'navbar-right' div" do
+  test "'navbar' div should have a 'navbar-right' div" do
     get home_index_url
-    assert_select "div.navbar", "div.navbar-right"
+    assert_select "div.navbar" do
+      assert_select  "div.navbar-right"
+    end
   end
 
+  test "should have a 'tabs' div" do
+    get home_index_url
+    assert_select "div.tabs"
+  end
+
+  test "'tabs' div should have several 'tab' div" do
+    get home_index_url
+    assert_select "div.tabs" do
+      assert_select "div.tab", :count > 1
+    end
+  end
 
 end
