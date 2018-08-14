@@ -16,12 +16,16 @@
 	width: 700px;
 	padding: 10px;
 	margin: 20px auto;
+	position: fixed;
+
+	bottom: 30px;
 }
 
 .logo-rs {
 	list-style: none;
     text-align: center;
     padding-left: 0px;
+		
 }
 
 .logo-rs > li {
