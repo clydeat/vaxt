@@ -53,8 +53,10 @@
 	display: inline-block;	
 	margin: 10px;
 }
-
-
+.tabs {
+	width: 700px;
+    margin: 140px auto;
+}
 
 
 
@@ -86,6 +88,22 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .fab {
 	color: black;
