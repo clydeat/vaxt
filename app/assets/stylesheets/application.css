@@ -18,9 +18,8 @@
  	font-size: 14px;
  	background-size: 1440px;
  	font-family: 'Josefin Sans', sans-serif;
- 	background: #ff6e7f;
 	background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);
-  background-image: url("VAXT-twerk-08.svg"), linear-gradient(to right, #bfe9ff, #ff6e7f);
+    background-image: url("VAXT-twerk-08.svg"), linear-gradient(to right, #bfe9ff, #ff6e7f);
 
  }
 
