@@ -25,6 +25,19 @@
 .btn-green:hover {
 	opacity: 0.5;
 }
-.avatar {
+.avatar-small {
 	border-radius: 50%;
+}
+
+.btn-primary-outline {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 14px 16px;
+    border-radius: 2px;
+    border: 1px solid black;
+    display: inline-block;
+	background-color: white;
+	color: black;
+}
+.btn-primary-outline:hover {
+	background-color: #80F624;
 }
