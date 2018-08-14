@@ -39,6 +39,7 @@
     display: inline-block;
 	background-color: white;
 	color: black;
+	cursor: pointer;
 }
 .btn-primary-outline:hover {
 	background-color: #80F624;
