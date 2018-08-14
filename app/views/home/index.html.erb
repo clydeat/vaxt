@@ -27,23 +27,35 @@
 	        </ul>
 	    </div>
 
-	    <div class="avatar">
-	    	<%= image_tag("lale.png", size: "50x50", alt: "lale", class: "avatar") %>
-	    	<!-- +dropdown -->
+	    <div class="dropdown avatar">
+	    	<a href="#" class="dropbtn" ><%= image_tag("lale.png", size: "50x50", alt: "lale", class: "avatar") %></a>
+	    	<div>
+	    		<a href="#">01</a>
+	    		<a href="#">02</a>
+	    		<a href="#">03</a>
+	    	</div>
 	    </div>
 	</div>
 
 
+	<div class="middle">
+		<div class="card-user">
+		  <%= image_tag("titouan.png", size: "80x80", alt: "lale", class: "avatar") %>
+		  <div class="card-user-infos">
+		    <h2>Titouan</h2>
+		    <p>Something about someone.</p>
+		  </div>
+		</div>
 
-
-
-    <div class="content">
-       <%= image_tag("THP WALL 2-58.png", size: "100", alt: "un rond") %>
-       <p>
-       	Hello! Here you will find print web photography vidéo & art.
-       </p>
-    </div>
-
+		<div class="card-user">
+		  <%= image_tag("francois.png", size: "80x80", alt: "lale", class: "avatar") %>
+		  <div class="card-user-infos">
+		    <h2>François</h2>
+		    <p>Something about someone.</p>
+		  </div>
+		</div>
+	</div>
+    
 
 	<div class="footer">
       <ul class="logo-rs">
