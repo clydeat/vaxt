@@ -51,7 +51,6 @@
 .tab-switch:checked + .tab-label {
   color: black;
   border-bottom: 0;
-  border-right: 0.0625rem solid #fff;
   transition: all 0.35s;
   z-index: 2;
   top: -0.0625rem;
@@ -67,5 +66,7 @@
 
 .tabs {
 	width: 700px;
-    margin: 100px auto;
+  margin: 100px auto;
+  background-color: white;
+  height: auto;
 }
