@@ -64,3 +64,8 @@
   transition: all 0.35s;
   z-index: 3;
 }
+
+.tabs {
+	width: 700px;
+    margin: 140px auto;
+}

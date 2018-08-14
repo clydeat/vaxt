@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vaxt</title>
+    <meta charset="UTF-8">
+    <title>VAXT | Here you will find print web photography vidéo & art.</title>
+    <meta name="description" content="Vaxt is multydisciplinary studio for creative people & entrepreneurs. Let us take care of your image.">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +23,8 @@
   </head>
 
   <body>
+    <%= render 'layouts/header' %>
     <%= yield %>
+    <%= render 'layouts/footer' %>
   </body>
 </html>

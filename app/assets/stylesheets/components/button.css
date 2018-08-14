@@ -1,0 +1,77 @@
+/* DEBUT CSS du Bouton */
+
+.btn-primary {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 14px 16px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: inline-block;
+	background-color: #80F624;
+	color: white;
+}
+
+.btn-primary:hover {
+background-color: #9fff54;
+}
+
+.btn-secondary {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 14px 16px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: inline-block;
+	background-color: #32ddfb;
+	color: white;
+}
+
+.btn-secondary:hover {
+background-color: #7ae3f5;
+}
+
+.btn-warning {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 14px 16px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: inline-block;
+	background-color: #fbab32;
+	color: white;
+}
+
+.btn-warning:hover {
+	background-color: #fbca80;
+}
+
+.btn-danger {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 14px 16px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: inline-block;
+	background-color: #fb3e32;
+	color: white;
+}
+
+.btn-danger:hover {
+	background-color: #ff756c;
+}
+
+.btn-info {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 14px 16px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: inline-block;
+	background-color: #a332fb;
+	color: white;
+}
+
+.btn-info:hover {
+	background-color: #c37afb;
+}
+
+.btn-sm {
+	padding: 7px 16px;
+}
+
+/* FIN CSS du Bouton */

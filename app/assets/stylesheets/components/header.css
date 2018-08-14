@@ -1,0 +1,30 @@
+.header {
+	width: 700px;
+	padding: 10px;
+	margin: 20px auto;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons-align {
+    padding-left: 0px;
+}
+.buttons-align > li {
+	align-items: center;
+	display: inline-block;
+	margin: 10px;
+}
+.btn-green {
+	padding: 5px 5px;
+	color: black;
+	list-style: none;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+.btn-green:hover {
+	opacity: 0.5;
+}
+.avatar {
+	border-radius: 50%;
+}

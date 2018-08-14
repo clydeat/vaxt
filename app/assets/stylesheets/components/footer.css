@@ -1,0 +1,31 @@
+
+.fab {
+	color: black;
+}
+.fas {
+	color: black;
+}
+.fab:hover {
+	opacity: 0.5;
+}
+.fas:hover {
+	opacity: 0.5;
+}
+
+.footer {
+	width: 700px;
+	padding: 10px;
+	margin: 20px auto;
+}
+
+.logo-rs {
+	list-style: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.logo-rs > li {
+
+	display: inline-block;
+	margin: 10px;
+}
