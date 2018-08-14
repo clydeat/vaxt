@@ -1,4 +1,9 @@
 * { box-sizing: border-box; }
+.avatar-big {
+  border-radius: 50%;
+  width: 80px;
+    height: 80px;
+}
 
 .tabs {
   width: 400px;
