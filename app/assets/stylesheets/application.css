@@ -17,7 +17,6 @@
  body {
  	font-size: 14px;
 	background-image: url(asset-path("VAXT-SITE-FOND-08.jpg"));
- 	background-image: url("VAXT-SITE-FOND-08.jpg");
  	background-size: 1440px;
  	font-family: 'Josefin Sans', sans-serif;
  }
