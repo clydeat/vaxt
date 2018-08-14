@@ -13,12 +13,9 @@
 }
 
 .footer {
-	width: 700px;
-	padding: 10px;
-	margin: 20px auto;
-	position: fixed;
-
-	bottom: 30px;
+    width: 700px;
+    padding: 100px;
+    margin: auto auto;
 }
 
 .logo-rs {
