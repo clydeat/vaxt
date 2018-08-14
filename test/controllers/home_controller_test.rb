@@ -25,6 +25,16 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     end
   end
 
+  test "should have a 'avatar-small' div" do
+    get home_index_url
+    assert_select "div.avatar-small"
+  end
+
+  test "should have a button" do
+    get home_index_url
+    assert_select "button"
+  end
+
   test "should have a 'tabs' div" do
     get home_index_url
     assert_select "div.tabs"
@@ -33,8 +43,13 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
   test "'tabs' div should have several 'tab' div" do
     get home_index_url
     assert_select "div.tabs" do
-      assert_select "div.tab", :count > 1
+      assert_select "div.tab", :minimum => 2
     end
+  end
+
+  test "should have a 'card' div" do
+    get home_index_url
+    assert_select "div.card"
   end
 
 end
