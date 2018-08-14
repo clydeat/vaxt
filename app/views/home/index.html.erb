@@ -10,18 +10,34 @@
     <link rel="stylesheet" href="home.css">  
   </head>
   <body>
-	<header>
-	  <div class="header">
-	    <ul class="list-inline">
-	        <li><%= image_tag("VAXT-LOGO-VERT.png", size: "50x30", alt: "vaxt logo", id: "logo") %></li>
-	        <div class="button">
-	          <li> <a href="https://www.etsy.com/fr/shop/VAXTshop?order=price_asc" target="_blank" class="btn-green" >SHOP</a></li>
-	        </div>
-	    </ul>
-	  </div>
-	</header>
 
-    <div class="milieu">   
+
+
+
+	<div class="header">
+	  	<div class="logo">
+	  		<%= image_tag("VAXT-LOGO-VERT.png", size: "50x30", alt: "vaxt logo", class: "logo") %>
+	  	</div>
+
+	    <div class="buttons-align">
+	        <ul class="buttons-align">
+	            <li> <a href="#" target="_blank" class="btn-green" >BO</a></li>
+	            <li> <a href="#" target="_blank" class="btn-green" >UT</a></li>
+	            <li> <a href="#" target="_blank" class="btn-green" >ON</a></li>
+	        </ul>
+	    </div>
+
+	    <div class="avatar">
+	    	<%= image_tag("lale.png", size: "50x50", alt: "lale", class: "avatar") %>
+	    	<!-- +dropdown -->
+	    </div>
+	</div>
+
+
+
+
+
+    <div class="content">
        <%= image_tag("THP WALL 2-58.png", size: "100", alt: "un rond") %>
        <p>
        	Hello! Here you will find print web photography vidéo & art.
@@ -29,17 +45,14 @@
     </div>
 
 
-<footer>
 	<div class="footer">
       <ul class="logo-rs">
         <li> <a href="https://www.facebook.com/VAXT.fr/?ref=bookmarks" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
         <li> <a href="https://www.youtube.com/channel/UCc15iu40dulMDj1YWMNzAKg?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a></li>
         <li> <a href="https://www.instagram.com/va_xt/" target="_blank"><i class="fab fa-instagram"></i></a></li>
         <li> <a href="https://github.com/clydeat/" target="_blank"><i class="fas fa-code-branch"></i></a></li>
-
-
       </ul>
     </div>
-</footer>
+
 </body>
 </html>
