@@ -19,7 +19,7 @@
  	background-size: 1440px;
  	font-family: 'Josefin Sans', sans-serif;
 	background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);
-    background-image: url("VAXT-twerk-08.svg");
+    background-image: url("VAXT-twerk-08.svg"), linear-gradient(90deg, rgba(246,252,255,0.23993347338935578) #bfe9ff%, rgba(255,242,244,0.27914915966386555) 48%, rgba(191,233,255,0.08587184873949583) 100%);;
 
  }
 

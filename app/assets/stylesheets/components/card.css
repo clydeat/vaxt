@@ -22,3 +22,9 @@
 .tab-content {
 	display: flex;
 }
+.image-test:hover {
+  transform: scale(1.6);
+}
+.card:hover {
+  transform: scale(1.5);
+}
