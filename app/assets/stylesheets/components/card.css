@@ -19,12 +19,6 @@
   margin: 27px 57px ;
 }
 
-.image-test:hover {
-  transform: scale(1.6);
-}
-.card:hover {
-  transform: scale(1.5);
-}
 .long-card {
   border: 1px solid black;
 	width: 500px;
