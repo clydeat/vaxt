@@ -14,9 +14,37 @@
 
 .image-test {
   border: 1px solid black;
+	width: 385px;
+	height: 187px;
+  margin: 27px 57px ;
+}
+
+.image-test:hover {
+  transform: scale(1.6);
+}
+.card:hover {
+  transform: scale(1.5);
+}
+.long-card {
+  border: 1px solid black;
 	width: 500px;
 	height: 242px;
-	margin-top: 20px
+	margin-top: 20px;
+  background: linear-gradient(to right, #bfe9ff, #ff6e7f);
+}
+.long-card-2 {
+  border: 1px solid black;
+	width: 500px;
+	height: 242px;
+	margin-top: 20px;
+  background: linear-gradient(to right, #E100FF, #7F00FF);
+}
+.long-card-3 {
+  border: 1px solid black;
+	width: 500px;
+	height: 242px;
+	margin-top: 20px;
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
 }
 
 .tab-content {
