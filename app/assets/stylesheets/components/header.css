@@ -44,3 +44,9 @@
 .btn-primary-outline:hover {
 	background-color: #80F624;
 }
+.btn-primary-outline:focus {
+    outline: none;
+}
+.btn-primary-outline:focus-within {
+    outline: none;
+}
