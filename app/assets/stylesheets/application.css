@@ -35,12 +35,8 @@ body {
  	background-size: 1440px;
  	font-family: 'Josefin Sans', sans-serif;
 	background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);
-<<<<<<< HEAD
-    background-image: url("VAXT-twerk-08.svg"), linear-gradient(to right, #bfe9ff, #ff6e7f);
-=======
-    background-image: url("VAXT-twerk-08.svg");
+  background-image: url("VAXT-twerk-08.svg");
 
->>>>>>> 6389bd129d2579198c4cce50c052c709de4b2068
  }
 
  hr {
