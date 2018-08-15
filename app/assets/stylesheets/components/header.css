@@ -40,6 +40,7 @@
 	background-color: white;
 	color: black;
 	cursor: pointer;
+	text-decoration: none;
 }
 .btn-primary-outline:hover {
 	background-color: #80F624;
