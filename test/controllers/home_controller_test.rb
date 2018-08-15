@@ -6,6 +6,16 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should have a 'wrapper' div" do
+    get home_index_url
+    assert_select "body.wrapper"
+  end
+
+  test "should have a 'container' div" do
+    get home_index_url
+    assert_select "div.container"
+  end
+
   test "should have a 'navbar' div" do
     get home_index_url
     assert_select "div.navbar"
@@ -32,7 +42,7 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
 
   test "should have a button" do
     get home_index_url
-    assert_select "button"
+    assert_select "a[type=button]"
   end
 
   test "should have a 'tabs' div" do
